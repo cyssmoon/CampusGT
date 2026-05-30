@@ -1,0 +1,188 @@
+:root {
+  --rojo: #e3350d;
+  --negro: #1a1a2e;
+  --gris: #2d2d44;
+  --texto: #f0f0f0;
+  --acento: #f7c948;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--negro);
+  color: var(--texto);
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  background: var(--rojo);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+header h1 { font-size: 1.8rem; letter-spacing: 2px; }
+
+#buscador {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: none;
+  font-size: 1rem;
+  width: 220px;
+  background: #fff2;
+  color: var(--texto);
+  outline: none;
+}
+#buscador::placeholder { color: #ccc; }
+
+nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background: var(--gris);
+}
+nav button {
+  background: none;
+  border: 2px solid var(--acento);
+  color: var(--acento);
+  padding: 0.4rem 1.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+nav button.activo,
+nav button:hover {
+  background: var(--acento);
+  color: var(--negro);
+}
+
+#spinner {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.5rem;
+  display: none;
+}
+#error-msg {
+  background: #c0392b;
+  color: #fff;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 8px;
+  display: none;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+  padding: 1.5rem 2rem;
+}
+.card {
+  background: var(--gris);
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+  position: relative;
+}
+.card:hover { transform: translateY(-4px); box-shadow: 0 8px 20px #0006; }
+.card img { width: 80px; height: 80px; image-rendering: pixelated; }
+.card .nombre { font-size: 0.85rem; margin-top: 0.4rem; text-transform: capitalize; }
+.card .num { font-size: 0.7rem; color: #aaa; }
+.fav-badge { position: absolute; top: 6px; right: 8px; font-size: 1rem; }
+
+#paginacion {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+#paginacion button {
+  background: var(--rojo);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+#paginacion button:disabled { opacity: 0.3; cursor: default; }
+
+#modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: #000a;
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+}
+#modal-overlay.visible { display: flex; }
+
+#modal {
+  background: var(--gris);
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 420px;
+  width: 90%;
+  position: relative;
+  animation: fadeIn 0.2s ease;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+#modal h2 { text-transform: capitalize; font-size: 1.6rem; margin-bottom: 0.3rem; }
+#modal .num-modal { color: #aaa; font-size: 0.9rem; margin-bottom: 1rem; }
+#modal img { width: 160px; display: block; margin: 0 auto 1rem; }
+
+.tipos { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.tipo-badge {
+  padding: 0.2rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background: var(--rojo);
+  text-transform: capitalize;
+}
+
+.stats { margin-bottom: 1.2rem; }
+.stat-row { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem; font-size: 0.85rem; }
+.stat-label { width: 80px; color: #aaa; }
+.stat-bar-bg { flex: 1; height: 8px; background: #1a1a2e; border-radius: 4px; overflow: hidden; }
+.stat-bar { height: 100%; background: var(--acento); border-radius: 4px; transition: width 0.4s; }
+
+#btn-fav {
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+#btn-fav.agregar { background: var(--acento); color: var(--negro); }
+#btn-fav.quitar  { background: #555; color: #fff; }
+
+#btn-cerrar {
+  position: absolute;
+  top: 1rem; right: 1rem;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+
+@media (max-width: 480px) {
+  #grid { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); padding: 1rem; }
+  header { padding: 0.8rem 1rem; }
+  #buscador { width: 100%; }
+}
