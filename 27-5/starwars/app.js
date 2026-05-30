@@ -77,7 +77,7 @@ async function renderPersonajes(personajes) {
 }
 
 /*
-(youtube gracuss por existir, sin vos no se q hacer
+(youtube gracuss por existir, sin vos no se q hacer, tampcoo puedo creer q la pagina de trini me este sirviendo omg
 incomplento, le falta render de planetas y naves, q es básicamente lo mismo q personajes pero con otros campos
 buscador con su listener de enter, paginacion (habilitar/deshabilitar botones y mostrar total), spinner y manejo de errores, formatNum pa los números grandes y la llamada inicial
 */
