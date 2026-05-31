@@ -38,7 +38,7 @@ anti-vibe-coding-challenge/
 
 |#|Caso                          |Categoría|Estado       |
 |-|------------------------------|---------|-------------|
-|1|Pokédex con favoritos         |Frontend |✅ Completo   |
+|1|Pokédex con favoritos         |Frontend |✅ Completo.   |
 |3|App Star Wars para estudiantes|Frontend |✅ Completo.  |
 
 -----
