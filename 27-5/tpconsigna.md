@@ -43,19 +43,6 @@ anti-vibe-coding-challenge/
 
 -----
 
-## 🔧 TODO — Caso 3: Star Wars `app.js`
-
-- [ ] `renderPlanetas(planetas)` — cards con nombre, clima, terreno y población
-- [ ] `renderNaves(naves)` — cards con nombre, modelo, fabricante y velocidad máxima
-- [ ] `buscar()` — URL con `?search=` + listener de Enter
-- [ ] `irAPagina(url)` — navegación entre páginas
-- [ ] `actualizarPaginacion(total)` — habilitar/deshabilitar botones y mostrar total
-- [ ] `mostrarSpinner()` / `mostrarError()` / `ocultarError()` / `reintentar()` — UI de estados
-- [ ] `formatNum(n)` — formatear números grandes con `toLocaleString`
-- [ ] Llamada inicial `cargarUrl(ENDPOINTS.personajes)`
-
------
-
 ## ⚖️ Criterios de evaluación
 
 |Criterio                       |Puntaje    |
