@@ -29,7 +29,7 @@ anti-vibe-coding-challenge/
 └── caso-3-starwars/
     ├── index.html
     ├── style.css
-    └── app.js          ← ⚠️ pendiente (ver TODO abajo)
+    └── app.js          
 ```
 
 -----
