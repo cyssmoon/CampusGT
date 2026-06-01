@@ -1,6 +1,6 @@
 # 🚀 Curso — Desarrollo IA-First
 
-> De 0 a Programación Profesional con IA · [CampusGT](https://campus.gt)
+> De 0 a Programación Profesional con IA · [Generación T — Streambe](https://generaciont.org/inscripciones2026/)
 
 -----
 
