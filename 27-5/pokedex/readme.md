@@ -1,10 +1,9 @@
-# 🎮 Pokédex con favoritos
+# 🎮 Pokédex with Favorites
+> An interactive web app that consumes the PokéAPI to explore Pokémon and save favorites.
 
-> Aplicación web interactiva que consume la PokéAPI para explorar Pokémon y guardar favoritos.
+---
 
------
-
-## 📁 Estructura
+## 📁 Structure
 
 ```
 pokedex/
@@ -13,32 +12,32 @@ pokedex/
 └── app.js
 ```
 
------
+---
 
-## ✨ Funcionalidades
+## ✨ Features
 
-- 🔍 Búsqueda en tiempo real por nombre
-- 📄 Paginación de 20 Pokémon por página
-- 🪟 Modal de detalle con imagen oficial, tipos y barras de estadísticas
-- ⭐ Favoritos persistentes en `localStorage`
-- ⚠️ Manejo de errores visible al usuario
-- 📱 Diseño responsive (mobile-first)
+- 🔍 Real-time search by name
+- 📄 Pagination of 20 Pokémon per page
+- 🪟 Detail modal with official image, types, and stat bars
+- ⭐ Persistent favorites via `localStorage`
+- ⚠️ Visible error handling for the user
+- 📱 Responsive design (mobile-first)
 
------
+---
 
-## 🌐 API utilizada
+## 🌐 API Used
 
-|API    |Endpoint                           |Docs                            |
-|-------|-----------------------------------|--------------------------------|
-|PokéAPI|`https://pokeapi.co/api/v2/pokemon`|[pokeapi.co](https://pokeapi.co)|
+| API | Endpoint | Docs |
+|-----|----------|------|
+| PokéAPI | `https://pokeapi.co/api/v2/pokemon` | [pokeapi.co](https://pokeapi.co) |
 
------
+---
 
-## 🚀 Cómo correrlo
+## 🚀 How to Run
 
-Abrí `index.html` directo en el navegador, o usá **Live Server** en VS Code.
+Open `index.html` directly in your browser, or use **Live Server** in VS Code.
 
------
+---
 
 ## 🛠️ Stack
 
@@ -46,8 +45,3 @@ Abrí `index.html` directo en el navegador, o usá **Live Server** en VS Code.
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
------
-
-## 👩‍💻 Autora
-
-Trabajo práctico desarrollado por **Luna**.
