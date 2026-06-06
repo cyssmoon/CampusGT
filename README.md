@@ -1,72 +1,79 @@
-# 🚀 Curso — Desarrollo IA-First
+# 🚀 Course — AI-First Development
 
-> De 0 a Programación Profesional con IA · [Generación T — Streambe](https://generaciont.org/inscripciones2026/)
+> **From Zero to Professional Programming with AI**
+> [Generation T — Streambe](https://generaciont.org/inscripciones2026/)
 
------
+![AI](https://img.shields.io/badge/AI--First-Development-8A2BE2?style=flat)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Level](https://img.shields.io/badge/Level-Advanced%202-FF6B6B?style=flat)
 
-## 📚 Estructura del curso
+---
 
-### Módulo 1 — Fundamentos IA-First
+## 📚 Course Structure
 
-> Entender la IA y el nuevo paradigma
+### Module 1 — AI-First Fundamentals
+**Understanding AI and the new paradigm**
 
-- Fundamentos de IA (qué es, qué NO es, LLMs, tokens)
-- Prompting y comunicación
-- Nuevo paradigma del desarrollo (Vibe Coding vs Ingeniería, SDD)
-- Agentes y sistemas modernos
-- Herramientas modernas (ChatGPT, Gemini, Claude, Cursor, Claude Code)
-- IA en el mundo real
+- Introduction to AI — what it is, what it's NOT, LLMs, tokens
+- Prompting and effective communication with AI
+- The new development paradigm — Vibe Coding vs. Engineering, SDD
+- Agents and modern AI systems
+- Modern tools — ChatGPT, Gemini, Claude, Cursor, Claude Code
+- AI in the real world — use cases and impact
 
------
+---
 
-### Módulo 2 — Programación con IA
+### Module 2 — Programming with AI
+**Learning to develop using AI**
 
-> Aprender a desarrollar usando IA
+- Code generation — functions, components, APIs, CRUD, forms
+- Reading and understanding AI-generated code
+- Debugging with AI — errors, logs, stack traces
+- Refactoring and improvement — optimization and best practices
+- Validation and critical thinking
+- AI-First development workflow — Spec → Code → Iteration
 
-- Generación de código (funciones, componentes, APIs y CRUD, formularios)
-- Lectura y comprensión de código generado
-- Debugging con IA (errores, logs, stack traces)
-- Refactor y mejora (optimización, buenas prácticas)
-- Validación y pensamiento crítico
-- Flujo de desarrollo IA-First (Spec → código → iteración)
+---
 
------
+### Module 3 — AI-First Engineering
+**Professional work and architecture**
 
-### Módulo 3 — Ingeniería IA-First
+- Modern architecture and system design
+- Frontend with AI — React, interfaces, state management, modern UI
+- Backend with AI — APIs, authentication, databases
+- Agentic and multi-agent systems
+- Professional quality — testing, validation, security
+- Working in real teams
 
-> Trabajo profesional y arquitectura
+---
 
-- Arquitectura moderna y diseño de sistemas
-- Frontend con IA (React, interfaces, estado, UI moderna)
-- Backend con IA (APIs, autenticación, bases de datos)
-- Sistemas agénticos y multiagentes
-- Calidad profesional (testing, validación, seguridad)
-- Trabajo en equipos reales
+### Module 4 — Real Projects
+**Building a real portfolio**
 
------
+| Project | Description |
+|---------|-------------|
+| **Project 1 — Starter** | Simple application with basic frontend |
+| **Project 2 — Intermediate** | Frontend + API, state management, external services |
+| **Final Project** | Full production-ready app with modern architecture |
 
-### Módulo 4 — Proyectos Reales
+**Full cycle:** Idea → Spec → Development → Validation → Testing → Demo
 
-> Construcción de portfolio real
+---
 
-- **Proyecto 1 — Inicial**: Aplicación simple, front básico
-- **Proyecto 2 — Intermedio**: Front + API, estado, consumo de servicios
-- **Proyecto Final**: Proyecto completo, tipo producción, arquitectura moderna
-- Flujo completo: Idea → Spec → Desarrollo → Validación → Testing → Presentación
+## 🎯 Learning Outcomes
 
------
+By the end of this course, you will be able to:
 
-## 🎯 Resultado final del curso
+- ✅ Understand AI technically and use it correctly
+- ✅ Program efficiently with AI assistance
+- ✅ Design modern software solutions
+- ✅ Work with professional-grade tools
+- ✅ Build real projects and have a solid portfolio
 
-- Entender IA técnicamente
-- Usar IA correctamente
-- Programar con IA
-- Diseñar soluciones modernas
-- Trabajar con herramientas profesionales
-- Construir proyectos reales y tener portfolio
+---
 
------
+## 👩‍💻 Student
 
-## 👩‍💻 Estudiante
-
-**Luna Estanga** — Nivel Avanzado 2
+**Luna Estanga** — Advanced Level 2
