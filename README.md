@@ -74,6 +74,6 @@ By the end of this course, you will be able to:
 
 ---
 
-## 👩‍💻 Student
+## 👩‍💻 Student level
 
-**Luna Estanga** — Advanced Level 2
+ Advanced Level 2
