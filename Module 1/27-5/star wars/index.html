@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Star Wars Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<header>
+  <h1>★ STAR WARS EXPLORER ★</h1>
+  <p>Explorá el universo de una galaxia muy, muy lejana — vía SWAPI</p>
+</header>
+
+<div class="tabs">
+  <button class="tab-btn activo" onclick="cambiarTab('personajes')">PERSONAJES</button>
+  <button class="tab-btn" onclick="cambiarTab('planetas')">PLANETAS</button>
+  <button class="tab-btn" onclick="cambiarTab('naves')">NAVES</button>
+</div>
+
+<div class="controles">
+  <input class="buscador" id="buscador" type="text" placeholder="Buscar..." />
+  <button class="btn-buscar" onclick="buscar()">BUSCAR</button>
+</div>
+
+<div id="error-box">
+  <strong>Error al cargar datos.</strong>
+  <p id="error-detalle"></p>
+  <button onclick="reintentar()">Reintentar</button>
+</div>
+
+<div id="spinner">CARGANDO DATOS...</div>
+<div id="grid"></div>
+
+<div id="paginacion">
+  <button class="btn-pag" id="btn-prev" onclick="irAPagina(urlAnterior)" disabled>← ANTERIOR</button>
+  <span id="pag-info"></span>
+  <button class="btn-pag" id="btn-next" onclick="irAPagina(urlSiguiente)">SIGUIENTE →</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
