@@ -1,4 +1,6 @@
+### Module 4 — Real Projects
 
+--
 | Project | Description |
 |---------|-------------|
 | **Project 1 — Starter** | Simple application with basic frontend |
