@@ -16,7 +16,7 @@ Las plataformas de chat con personajes suelen mezclar contenido de todo tipo y p
 6. **Mis chats:** lista de las conversaciones guardadas, para retomarlas.
 7. **Tu perfil:** nombre, bio, avatar, tema (claro, oscuro o automático) y longitud de las respuestas. Los personajes conocen tu nombre y tu bio.
 8. **Proyecto:** pestaña con la documentación del trabajo (fases, spec, arquitectura, validación, presentación) y un botón para **ejecutar las pruebas** de la lógica compartida en el navegador.
-9. **Soporte:** el botón redondo de la esquina abre un panel con un usuario de Discord para avisar de problemas.
+9. **Soporte:** el botón redondo de la esquina abre un panel con mi usuario de Discord para avisar de problemas :).
 
 Todo (perfil, personajes, chats y memoria) se guarda solo en el navegador. Moderación, validación y límites se aplican en el servidor.
 
